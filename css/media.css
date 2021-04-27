@@ -323,7 +323,9 @@
 .steps-head img {
     max-width: 160px;
 }
-
+.catalog__right {
+    padding-left: 15px;
+}
 }
 
 /* Extra Small Devices, Phones */
