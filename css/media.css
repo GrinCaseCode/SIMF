@@ -463,7 +463,9 @@ background-color: #1d1b1c;
 }
 .phone-main i {
  color: #81c90f;
- font-size: 28px;
+ font-size: 23px;
+ top: 2px;
+ position: relative;
  display: inline-block;
 }
 .header__contacts .btn-simple {
