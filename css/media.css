@@ -326,6 +326,17 @@
 .catalog__right {
     padding-left: 15px;
 }
+.header {
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: all 0.3s;
+}
+.header.fixed {
+background-color: #1d1b1c;
+}
 }
 
 /* Extra Small Devices, Phones */
