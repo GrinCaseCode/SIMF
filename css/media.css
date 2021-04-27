@@ -329,7 +329,7 @@
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 .about-head {
-    justify-content: center;
+    justify-content: center; 
 }
     .title-big {
         font-size: 28px;
