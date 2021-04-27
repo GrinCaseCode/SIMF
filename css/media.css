@@ -328,7 +328,9 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
+.about-head {
+    justify-content: center;
+}
     .title-big {
         font-size: 28px;
         line-height: 38px;
