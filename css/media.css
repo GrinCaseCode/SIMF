@@ -456,7 +456,7 @@ background-color: #1d1b1c;
 }
 .item-portfolio {
  font-size: 14px;
- height: 180px;
+ height: 205px;
  margin-bottom: 10px;
 }
 .item-portfolio:before {
@@ -483,7 +483,7 @@ background-color: #1d1b1c;
     padding: 17px 20px;
 }
 .item-news__image {
-    height: 155px;
+    height: 180px;
 }
 .item-news__content {
     padding: 21px 20px;
