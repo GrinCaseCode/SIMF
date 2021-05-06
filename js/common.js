@@ -94,6 +94,41 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 
 });
 
+	$(".slider-portfolio").slick({
+			slidesToShow: 3,
+			slidesToScroll: 1,
+			dots: false,
+			focusOnSelect: true,
+			arrows: true,
+			prevArrow: '<div class="slick-prev slick-arrow"><i class="far fa-chevron-left"></i><div/>',
+			nextArrow: '<div class="slick-next slick-arrow"><i class="far fa-chevron-right"></i><div/>',
+			infinite: true,
+			responsive: [
+		{
+			breakpoint: 992,
+			settings: {
+				slidesToShow: 2,
+			}
+		},
+		{
+			breakpoint: 768,
+			settings: {
+				slidesToShow: 2,
+				dots: true,
+				arrows: false,
+			}
+		},
+		{
+			breakpoint: 481,
+			settings: {
+				slidesToShow: 1,
+				dots: true,
+				arrows: false,
+			}
+		}
+		]
+		});
+
 	$('.tabs li a').click(function(event) {
 		event.preventDefault();
 		$(this).parent().parent().find("li").removeClass('active');
