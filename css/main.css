@@ -1719,7 +1719,7 @@ color: #2D3241;
 .category .item-catalog {
 	margin-top: 10px;
 	height: 250px;
-	max-width: 450px;
+	max-width: 450px; 
 	padding-right: 218px;
 	background-image: url(../img/bg_catalog.png);
 	    background-position: 26% 100%;
