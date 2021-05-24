@@ -1836,7 +1836,7 @@ p {
 /*menu*/
 .header .container {
 	position: relative;
-}
+} 
 .menu {
 	right: 0;
 	top: 100%;
@@ -1847,7 +1847,7 @@ p {
 	position: absolute;
 	display: none;
 	background-color: #191719;
-}
+} 
 .menu::after {
 	position: absolute;
 	display: block;
