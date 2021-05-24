@@ -506,6 +506,15 @@
 .category__catalog .btn-main {
     margin-bottom: 0;
 }
+
+/*menu*/
+.menu {
+    height: 100vh;
+    overflow: auto;
+    padding-bottom: 100px;
+    min-height: initial;
+    margin-top: -2px;
+}
 }
 
 /* Extra Small Devices, Phones */
@@ -858,6 +867,17 @@
 .category .item-catalog {
     padding-right: 113px;
 }
+
+/*menu*/
+.menu {
+    width: 100%;
+}
+.menu a {
+    height: 65px;
+    font-size: 15px;
+    line-height: 23px;
+    padding-left: 25px;
+    }
 }
 
 /* Custom, iPhone Retina */

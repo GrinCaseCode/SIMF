@@ -26,16 +26,20 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 	$(".btn_nav").click(function() {
 		$(".sandwich").toggleClass("active");
 		if ($(".menu").is(":hidden")) {
-			$(".menu").slideDown(200);
+			$(".menu").fadeIn(200);
 		} else {
-			$(".menu").slideUp(200);
+			$(".menu").fadeOut(200);
 		}
 		
 	});
-
-	$(".menu a").click(function() {
-			$(".menu").slideUp(200);
+	$(".menu li:not(.menu__haschild) a").click(function() {
+			$(".menu").fadeOut(200);
 			$(".sandwich").removeClass("active");
+		});
+
+	$(".menu li.menu__haschild > a").click(function() {
+		$(this).toggleClass("active");
+			$(this).siblings("ul").slideToggle(200);
 		});
 
 	//слайдер
